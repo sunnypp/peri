@@ -20,6 +20,12 @@ Write a test case.  Use `prove` (perhaps with the `-v` flag) or just `perl abc.t
 
 Clone this repository and try `prove -v Peri.t`.  `Peri.t` should have examples of all usable functions.
 
+# Can I help refactor this file?
+
+This package is designed to contain several classes all in the same file.  I would like to further put MonkeyPatch into Peri so that just by copying and pasting `Peri.pm` into your library path would allow writing test files, instead of going through CPAN or other services that may require installation or other tools.
+
+With that in mind, feel free to help making Peri better!
+
 # TO-DO
 
 1. Remove dependency to MonkeyPatch package.
